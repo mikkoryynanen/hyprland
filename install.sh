@@ -83,6 +83,11 @@ source install/includes/kvm.sh
 source install/includes/copy.sh
 
 # ----------------------------------------------------- 
+# Perform post installation. Installs needed programs
+# ----------------------------------------------------- 
+source install/includes/post_install.sh
+
+# ----------------------------------------------------- 
 # Reboot
 # ----------------------------------------------------- 
 source install/includes/reboot.sh

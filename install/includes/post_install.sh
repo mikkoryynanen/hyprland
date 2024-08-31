@@ -19,7 +19,8 @@ sudo pacman -Syu --noconfirm --needed \
   stow \
   hyprlock \
   hypridle \
-  ripgrep
+  ripgrep \
+  coreutils
 
 # Install yay
 # if ! command -v yay &> /dev/null

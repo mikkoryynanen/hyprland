@@ -1,0 +1,20 @@
+{
+    "label" : "shutdown",
+    "action" : "poweroff",
+    "text" : "Shutdown",
+}
+{
+    "label" : "lock",
+    "action" : "lock",
+    "text" : "Lock",
+}
+{
+    "label" : "reboot",
+    "action" : "reboot",
+    "text" : "Reboot",
+}
+{
+    "label" : "sleep",
+    "action" : "systemctl sleep",
+    "text" : "Sleep",
+}

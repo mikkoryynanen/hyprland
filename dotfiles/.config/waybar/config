@@ -1,0 +1,36 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    
+     "height": 30, // Waybar height (to be removed for auto height)
+     // "width": 1280, // Waybar width
+    
+    "spacing": 0, // Gaps between modules (4px)
+    // Choose the order of the modules
+
+    // Load Modules
+    "include": [
+        "~/.config/ml4w/settings/waybar-quicklinks.json",
+        "~/.config/waybar/modules.json"
+    ],    
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+       "hyprland/language",
+      "mpd", 
+       "pulseaudio", 
+        "network", 
+        "keyboard-state",
+        "bluetooth",
+        "cpu", 
+        "memory", 
+         "battery", 
+        "tray",
+        "custom/exit"
+    ]
+}
+

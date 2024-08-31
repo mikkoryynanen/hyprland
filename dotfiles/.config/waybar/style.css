@@ -1,0 +1,42 @@
+
+@define-color backgroundlight #FFFFFF;
+@define-color backgrounddark #FFFFFF;
+@define-color workspacesbackground1 #FFFFFF;
+@define-color workspacesbackground2 #CCCCCC;
+@define-color bordercolor #FFFFFF;
+@define-color textcolor1 #000000;
+@define-color textcolor2 #000000;
+@define-color textcolor3 #FFFFFF;
+@define-color iconcolor #FFFFFF;
+
+* {
+  font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: @text;
+  margin: 0 6px;
+}
+
+window#waybar {
+  color: black;
+  /*background-color: shade(@base, 0.9);*/
+}
+
+#workspaces button {
+  padding: 0 1px;
+  margin: 0;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+#workspaces button.active {
+    background: #000000; 
+}
+
+#cpu,
+#memory {
+  padding: 0 8px;
+  margin: 0;
+}
+
+#language {
+}

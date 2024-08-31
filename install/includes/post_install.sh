@@ -18,7 +18,8 @@ sudo pacman -Syu --noconfirm --needed \
   ufw \
   stow \
   hyprlock \
-  hypridle
+  hypridle \
+  ripgrep
 
 # Install yay
 # if ! command -v yay &> /dev/null
